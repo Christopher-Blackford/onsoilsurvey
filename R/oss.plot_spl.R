@@ -28,8 +28,6 @@
 #' oss.plot_spl(splineOuts= fit, d= t(c(0,5,15,30,60,100)), maxd= 100, type=3, label= "Soil pH")
 #'
 
-#Add test comment 1 - CB
-
 oss.plot_spl<- function(splineOuts, d = t(c(0,5,15,30,60,100,200)), maxd, type = 1, label = "", plot.which = 1){
   print("performing oss.plot_spl") #adding test printing statement - CB
   #type 1 (raw data and spline fit)
